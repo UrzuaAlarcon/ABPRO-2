@@ -27,7 +27,10 @@ public class Imprimir_pantalla {
 			System.out.println("Duracion: " + duracionCapacitacion);
 			System.out.println("Numero de participantes" + cantidadAsistentes);
 		//estadistica 25>, (26<=, 35>=), >35; 
-			System.out.println("Participantes menores de 25");
+			System.out.println("Estadistica de edades");
+			System.out.println("Participantes menores de 25: " + asistentesMenoresDe25);
+			System.out.println("Participantes entre 26 y 35: " + asistentesEntre26y35);
+			System.out.println("Participantes mayores de 35: ");
 			
 	}
 	
