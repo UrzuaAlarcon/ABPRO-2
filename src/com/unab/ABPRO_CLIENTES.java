@@ -69,7 +69,14 @@ public class ABPRO_CLIENTES {
         	    telefono = entrada.nextLine();    
        	    }
         entrada.close();
-		
+        
+        System.out.println("Datos Empresa cliente");
+        System.out.println(" ");
+		System.out.println("RUT: " + rut);
+		System.out.println("Nombre: " + nombre);
+		System.out.println("Direccion: " + direccion);
+		System.out.println("Comuna: " + comuna);
+		System.out.println("Telefono" + telefono);
 	}
 
 }
